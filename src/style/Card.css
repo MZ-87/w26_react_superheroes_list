@@ -1,0 +1,28 @@
+.hero-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    background-color: bisque;
+    margin: 1em;
+    padding: 1.5em;
+}
+
+.img,
+.id,
+.quote{
+    align-self: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+span{
+    font-weight: 700;
+}
+
+.img{
+    max-width: 600px;
+}
+.item-info{
+    margin-top: 0.2em;
+}
