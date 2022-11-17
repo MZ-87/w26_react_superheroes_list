@@ -13,6 +13,7 @@ function Card(props) {
             <div className="ally item-info"><span>Союзники:</span> {props.ally}</div>
             <div className="enemy item-info"><span>Враги:</span> {props.enemy}</div>
             <div className="powers item-info"><span>Суперспособности:</span> {props.powers}</div>
+            <div className="info item-info"><span>Подробнее:</span> {props.info}</div>
         </div>
 
     );
