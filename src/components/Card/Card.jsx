@@ -4,7 +4,7 @@ function Card(props) {
     return (
 
         <div className={style.hero_card}>
-            <img src={props.img} alt={props.id} className="img" />
+            <img src={props.img} alt={props.id} className={style.img} />
             <h2 className={style.id}>{props.id}</h2>
             <h3 className={style.quote}>{props.quote}</h3>
             <div className={style.item_info}><span>Альтерэго:</span> {props.alterego}</div>
